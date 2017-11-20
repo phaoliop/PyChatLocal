@@ -3,7 +3,7 @@ import socket
 #Recibe conexiones
 escucha = socket.socket()
 
-#Conexiones de cualquier direccion, por puerto 1234
+#Conexiones de multiples interfaces, por puerto 1234
 escucha.bind(('',1234))
 
 #Numero de conexiones a la espera
